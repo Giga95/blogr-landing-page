@@ -1,0 +1,14 @@
+nav {
+  @include flex(space-between, center, row, 8rem, auto);
+  @extend .container;
+
+  .left-nav {
+    @include flex(center, center, row, auto, auto);
+    gap: 4rem;
+  }
+
+  ul {
+    @include flex(center, center, row, auto, auto);
+    gap: 1.6rem;
+  }
+}

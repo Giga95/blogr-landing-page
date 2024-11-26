@@ -1,0 +1,10 @@
+header {
+  height: 70vh;
+  background-image: url("../images/bg-pattern-intro-desktop.svg"),
+    linear-gradient(to right, $gradientVeryLightRed, $gradientLightRed);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 130%;
+  border-bottom-left-radius: 14rem;
+  border-bottom-right-radius: 14rem;
+}

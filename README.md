@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Giga95/blogr-landing-page](https://github.com/Giga95/blogr-landing-page)
+- Live Site URL: [https://giga95.github.io/blogr-landing-page/](https://giga95.github.io/blogr-landing-page/)
 
 ## My process
 
@@ -46,8 +46,11 @@ Users should be able to:
 During this project, I deepened my understanding of:
 
 Writing clean, semantic HTML5 markup for better accessibility and SEO.
+
 Leveraging CSS custom properties for easier theming and code maintainability.
+
 Utilizing Flexbox and CSS Grid for responsive and modern layouts.
+
 Organizing and managing styles effectively with SASS/SCSS.
 
 ## Author

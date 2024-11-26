@@ -19,43 +19,47 @@
   <body>
     <header>
       <nav>
-        <ul>
-          <li>
-            <a href="#">Product</a>
-            <ul>
-              <li>Overview</li>
-              <li>Pricing</li>
-              <li>Marketplace</li>
-              <li>Features</li>
-              <li>Integrations</li>
-            </ul>
-          </li>
-          <li>
-            <a href="#">Company</a>
-            <ul>
-              <li>About</li>
-              <li>Team</li>
-              <li>Blog</li>
-              <li>Careers</li>
-            </ul>
-          </li>
-          <li>
-            <a href="#">Connect</a>
-            <ul>
-              <li>Contact</li>
-              <li>Newsletter</li>
-              <li>LinkedIn</li>
-            </ul>
-          </li>
-        </ul>
-
-        <ul>
-          <li>Login</li>
-          <li>Sign Up</li>
-        </ul>
+        <div class="left-nav">
+          <h1 class="logo"><img src="./images/logo.svg" alt="Blogr logo" /></h1>
+          <ul>
+            <li class="dropdown">
+              <a href="#">Product</a>
+              <ul class="dropdown-list">
+                <li>Overview</li>
+                <li>Pricing</li>
+                <li>Marketplace</li>
+                <li>Features</li>
+                <li>Integrations</li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#">Company</a>
+              <ul class="dropdown-list">
+                <li>About</li>
+                <li>Team</li>
+                <li>Blog</li>
+                <li>Careers</li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#">Connect</a>
+              <ul class="dropdown-list">
+                <li>Contact</li>
+                <li>Newsletter</li>
+                <li>LinkedIn</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="right-nav">
+          <ul>
+            <li>Login</li>
+            <li>Sign Up</li>
+          </ul>
+        </div>
       </nav>
 
-      <section class="hero">
+      <section class="hero container">
         <h2>A modern publishing platform</h2>
         <p>Grow your audience and build your online brand</p>
 
@@ -65,7 +69,7 @@
     </header>
 
     <main>
-      <section>
+      <section class="container">
         <h3>Designed for the future</h3>
         <div>
           <div>
@@ -128,7 +132,7 @@
     </main>
 
     <footer>
-      <section>
+      <section class="container">
         <div>
           <h5>Product</h5>
           <ul>

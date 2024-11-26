@@ -1,1 +1,16 @@
 // This file is used to import all sass/scss files
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import "./abstracts/variables";
+@import "./abstracts/mixins";
+
+@import "./base/reset";
+@import "./base/base";
+
+@import "./components/dropdown";
+@import "./components/header";
+@import "./components/hero";
+@import "./components/nav";
+
+@import "./layout/container";
