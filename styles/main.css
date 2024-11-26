@@ -38,10 +38,25 @@ body {
 
 .dropdown-list {
   display: none;
+  position: relative;
+}
+.dropdown-list li {
+  padding: 1rem;
+}
+
+.active-list {
+  position: absolute;
+  margin-top: 2.4rem;
+  left: 34.5rem;
+  display: block;
+  background: white;
+  padding: 2.4rem 3.2rem;
+  border-radius: 2rem;
+  box-shadow: 0 0 3rem rgba(0, 0, 0, 0.3);
 }
 
 header {
-  height: 70vh;
+  height: 75vh;
   background-image: url("../images/bg-pattern-intro-desktop.svg"), linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
   background-repeat: no-repeat;
   background-position: center;
@@ -64,8 +79,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  height: 8rem;
-  width: auto;
+  height: 16rem;
+  width: 100%;
 }
 nav .left-nav {
   display: flex;
@@ -83,7 +98,10 @@ nav ul {
   flex-direction: row;
   height: auto;
   width: auto;
-  gap: 1.6rem;
+  gap: 4rem;
+}
+nav ul .dropdown img {
+  padding-left: 0.4rem;
 }
 
 .container, nav {

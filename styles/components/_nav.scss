@@ -1,5 +1,5 @@
 nav {
-  @include flex(space-between, center, row, 8rem, auto);
+  @include flex(space-between, center, row, 16rem, 100%);
   @extend .container;
 
   .left-nav {
@@ -9,6 +9,10 @@ nav {
 
   ul {
     @include flex(center, center, row, auto, auto);
-    gap: 1.6rem;
+    gap: 4rem;
+
+    .dropdown img {
+      padding-left: 0.4rem;
+    }
   }
 }

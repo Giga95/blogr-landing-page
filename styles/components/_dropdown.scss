@@ -1,3 +1,19 @@
 .dropdown-list {
   display: none;
+  position: relative;
+
+  li {
+    padding: 1rem;
+  }
+}
+
+.active-list {
+  position: absolute;
+  margin-top: 2.4rem;
+  left: 34.5rem;
+  display: block;
+  background: $neutralWhite;
+  padding: 2.4rem 3.2rem;
+  border-radius: 2rem;
+  box-shadow: 0 0 3rem rgba(0, 0, 0, 0.3);
 }
